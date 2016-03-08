@@ -106,3 +106,15 @@ blockquote {
   color: #666;
   text-align: right;
 }
+
+main::first-letter {
+  float: left;
+  background-color: #666;
+  color: #fff;
+  font-size: 5rem;
+  font-style: normal;
+  width: 300px;
+  padding: 15px;
+  margin: 0.1em;
+  margin-left: -45px
+}
