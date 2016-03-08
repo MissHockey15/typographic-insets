@@ -107,14 +107,14 @@ blockquote {
   text-align: right;
 }
 
-main::first-letter {
+main:first-letter {
   float: left;
   background-color: #666;
-  color: #fff;
+  color: #f2f2f2;
   font-size: 5rem;
   font-style: normal;
-  width: 300px;
-  padding: 15px;
-  margin: 0.1em;
-  margin-left: -45px
-}
+  margin-right: .15em;
+  margin-top: .05em;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  padding: 10px;
