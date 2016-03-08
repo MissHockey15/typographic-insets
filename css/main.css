@@ -92,22 +92,27 @@ figure {
   float: right;
   width: 300px;
   margin-right: -150px;
+  border-top: 3px solid #000;
+  padding-top: 0.5rem;
 }
 
 figcaption {
   font-style: italic;
+  border-bottom: 3px solid #000;
 }
 
 blockquote {
   float: left;
   width: 300px;
-  margin: -150px;
-  font-size: 1.5rem;
   color: #666;
+  font-size: 1.5rem;
   text-align: right;
+  margin-left: -150px;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
 }
 
-main:first-letter {
+main::first-letter {
   float: left;
   background-color: #666;
   color: #f2f2f2;
@@ -117,4 +122,5 @@ main:first-letter {
   margin-top: .05em;
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
-  padding: 10px;
+  padding: 1rem;
+}
